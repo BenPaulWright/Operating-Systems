@@ -1,0 +1,7 @@
+Physical_memory_capicity: 512
+Frame_size: 32
+Process_count: 32
+Instructions_per_process: 8
+Read_instruction_enabled: 1
+Write_instruction_enabled: 1
+Seed: 1

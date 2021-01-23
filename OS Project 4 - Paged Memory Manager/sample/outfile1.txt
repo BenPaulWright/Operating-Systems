@@ -1,0 +1,109 @@
+Process 0 started
+Process 1 started
+P0 OPERATION: R r0 0
+P0: page 0 not resident in memory
+P0: using free frame 0
+P0: new translation from page 0 to frame 0
+P0: translated VA 0x00000000 to PA 0x00000000
+P0: r0 = 0x67c66973 (mem at virtual addr 0x00000000)
+P0 OPERATION: R r1 1
+P0: valid translation from page 0 to frame 0
+P0: translated VA 0x00000001 to PA 0x00000001
+P0: r1 = 0xc6697351 (mem at virtual addr 0x00000001)
+P0 OPERATION: R r2 2
+P0: valid translation from page 0 to frame 0
+P0: translated VA 0x00000002 to PA 0x00000002
+P1 OPERATION: R r0 0
+P0: r2 = 0x697351ff (mem at virtual addr 0x00000002)
+P1: page 0 not resident in memory
+P1: using free frame 1
+P1: new translation from page 0 to frame 1
+P1: translated VA 0x00000000 to PA 0x00000020
+P1: r0 = 0x66320db7 (mem at virtual addr 0x00000000)
+P0 OPERATION: R r3 3
+P0: valid translation from page 0 to frame 0
+P0: translated VA 0x00000003 to PA 0x00000003
+P0: r3 = 0x7351ff4a (mem at virtual addr 0x00000003)
+P1 OPERATION: R r1 32
+P1: page 1 not resident in memory
+P1: using free frame 2
+P1: new translation from page 1 to frame 2
+P1: translated VA 0x00000020 to PA 0x00000040
+P0 OPERATION: R r4 4
+P1: r1 = 0x70e93ea1 (mem at virtual addr 0x00000020)
+P0: valid translation from page 0 to frame 0
+P0: translated VA 0x00000004 to PA 0x00000004
+P0: r4 = 0x51ff4aec (mem at virtual addr 0x00000004)
+P1 OPERATION: R r2 64
+P1: page 2 not resident in memory
+P0 OPERATION: R r5 1020
+P1: using free frame 3
+P1: new translation from page 2 to frame 3
+P1: translated VA 0x00000040 to PA 0x00000060
+P1: r2 = 0x021afe43 (mem at virtual addr 0x00000040)
+P0: page 31 not resident in memory
+P0: using free frame 4
+P0: new translation from page 31 to frame 4
+P0: translated VA 0x000003fc to PA 0x0000009c
+P0: r5 = 0x5e4b7963 (mem at virtual addr 0x000003fc)
+P1 OPERATION: R r3 96
+P1: page 3 not resident in memory
+P1: using free frame 5
+P0 OPERATION: R r6 1019
+P1: new translation from page 3 to frame 5
+P0: valid translation from page 31 to frame 4
+P1: translated VA 0x00000060 to PA 0x000000a0
+P1: r3 = 0x3b706424 (mem at virtual addr 0x00000060)
+P0: translated VA 0x000003fb to PA 0x0000009b
+P0: r6 = 0xc55e4b79 (mem at virtual addr 0x000003fb)
+P1 OPERATION: R r4 128
+P0 OPERATION: R r7 1018
+P1: page 4 not resident in memory
+P1: using free frame 6
+P1: new translation from page 4 to frame 6
+P1: translated VA 0x00000080 to PA 0x000000c0
+P1: r4 = 0x0be11a1c (mem at virtual addr 0x00000080)
+P0: valid translation from page 31 to frame 4
+P0: translated VA 0x000003fa to PA 0x0000009a
+P0: r7 = 0x5ac55e4b (mem at virtual addr 0x000003fa)
+P1 OPERATION: R r5 160
+P0 OPERATION: R r8 1017
+P1: page 5 not resident in memory
+P1: using free frame 7
+P1: new translation from page 5 to frame 7
+P1: translated VA 0x000000a0 to PA 0x000000e0
+P1: r5 = 0xac86212b (mem at virtual addr 0x000000a0)
+P0: valid translation from page 31 to frame 4
+P0: translated VA 0x000003f9 to PA 0x00000099
+P0: r8 = 0x735ac55e (mem at virtual addr 0x000003f9)
+P1 OPERATION: R r6 192
+P1: page 6 not resident in memory
+P1: using free frame 8
+P1: new translation from page 6 to frame 8
+P1: translated VA 0x000000c0 to PA 0x00000100
+P1: r6 = 0x0870d4b2 (mem at virtual addr 0x000000c0)
+P0 OPERATION: R r9 1016
+P0: valid translation from page 31 to frame 4
+P0: translated VA 0x000003f8 to PA 0x00000098
+P0: r9 = 0x14735ac5 (mem at virtual addr 0x000003f8)
+P1 OPERATION: R r7 224
+P1: page 7 not resident in memory
+P1: using free frame 9
+P1: new translation from page 7 to frame 9
+P1: translated VA 0x000000e0 to PA 0x00000120
+P1: r7 = 0xa3847f2d (mem at virtual addr 0x000000e0)
+P1 OPERATION: R r8 256
+P1: page 8 not resident in memory
+P1: using free frame 10
+P1: new translation from page 8 to frame 10
+P1: translated VA 0x00000100 to PA 0x00000140
+P1: r8 = 0x3e05f1ec (mem at virtual addr 0x00000100)
+Process 0 complete
+P1 OPERATION: R r9 288
+P1: page 9 not resident in memory
+P1: using free frame 11
+P1: new translation from page 9 to frame 11
+P1: translated VA 0x00000120 to PA 0x00000160
+P1: r9 = 0x4969e623 (mem at virtual addr 0x00000120)
+Process 1 complete
+Main: program completed
